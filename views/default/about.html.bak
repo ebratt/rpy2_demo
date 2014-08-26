@@ -1,0 +1,5 @@
+{{extend 'layout.html'}}
+<p>This application is meant to demonstrate the power and simplicity of integrating rpy2 with web2py.</p>
+<p>{{=CAT("More information about rpy2 can be found ", A('here', _href="http://rpy.sourceforge.net/rpy2/doc-2.4/html/index.html")}}</p>
+<p>Developed with web2py.</p>
+{{=BEAUTIFY(response._vars)}}
